@@ -10,19 +10,19 @@ export const listOfTodos = [
     {
         "id": uuidv4(),
         "text": "shop for shoes",
-        "isCompleted": false
+        "isCompleted": true
     },
     {
         "id": uuidv4(),
         "text": "walk a mile",
-        "isCompleted": true
+        "isCompleted": false
     },
     {
         "id": uuidv4(),
         "text": "cleaning the house",
         "isCompleted": false
     }
-    ];
+];
 
 
 export default listOfTodos;
